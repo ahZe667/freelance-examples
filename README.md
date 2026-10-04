@@ -48,7 +48,7 @@ I also work with customer-return modelling projects. The employer owns these sys
 
 ### Data Analyst at LPP
 
-Prepared reports and analyses and worked with data in Google Cloud Platform. This description reflects the confirmed scope of the role; specific cloud services and quantitative business outcomes are not inferred.
+Prepared e-commerce reports and analyses of sales, inventory, returns, costs and profitability. Worked with data on Google Cloud Platform using SQL and BigQuery, Python and Looker, and analysed GA4 funnels and A/B tests. This summary follows the existing CV and the user's confirmation; no quantitative business outcome is claimed.
 
 ## Additional public code
 
