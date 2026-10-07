@@ -24,11 +24,11 @@ For freelance work, I offer focused data cleanup, API integration, repeatable re
 
 ### Multi-source listing research
 
-Flat Hunter is a personal, local tool for collecting rental listings, validating information, retaining history and ranking results. It combines Python, SQLite, a web panel and local model-assisted analysis. Unresolved facts remain visible for review.
+Flat Hunter is a personal, local research application for rental listings. Its workflow collects from multiple sources, validates and deduplicates results, retains history in SQLite, ranks candidates and presents source evidence and uncertainty in a web panel. Local model-assisted text and photo review helps triage results; source failures and unresolved facts stay visible. The project also includes offline replay, parser checks and run-status views.
 
 **Client application:** collect data from agreed sources, track changes and present a shortlist with reasons and source evidence.
 
-**Limits:** the repository is private. Collection is bounded and source failures are recorded; the tool is not a complete or guaranteed-current catalogue. Private captures, photos and personal search preferences are not published.
+**Limits:** the repository is private. Collection is bounded and source failures are recorded; the tool is not a complete or guaranteed-current catalogue. Private captures, photos, configuration and personal search preferences are not published.
 
 ### Documents to a reviewable report
 
