@@ -1,10 +1,20 @@
 # Daniel Jaroszewski
 
-Data scientist with professional experience at Wakacje.pl and previous data analyst experience at LPP. I work with Python, SQL, data pipelines, reporting and machine learning, and build personal tools with AI-assisted development.
+Data Scientist at Wakacje.pl, previously Data Analyst at LPP. I help turn CSV/Excel exports and API data into repeatable reports using Python, SQL and Google Cloud Platform.
 
-For freelance work, I offer focused data cleanup, API integration, repeatable reports and document-processing workflows. I start with a sample input, agree on the expected output, and deliver instructions and explicit validation limits. My initial availability is 5–10 hours per week.
+For freelance projects, we agree on the sources, output and acceptance checks. You receive a working solution and instructions for the next run. Availability: 5–10 hours per week. Document processing with human review is a second service.
 
 ## Selected existing projects
+
+### Multi-source listing research
+
+**Problem:** several sources show overlapping listings, changing prices and incomplete information. Flat Hunter collects listings, keeps their history in SQLite, deduplicates records and presents a ranked shortlist with source evidence in a local web panel.
+
+**Result:** one view for comparing candidates, investigating missing facts and seeing source failures. Python handles collection and ranking; local model-assisted text and photo review supports investigation.
+
+[See the workflow and an illustrative input/output example](case-studies/flat-hunter.md).
+
+**Client application:** monitoring an agreed set of sources, tracking changes and preparing a reviewable shortlist. Personal project; source code and collected data are private.
 
 ### Document and reporting automation
 
@@ -12,7 +22,7 @@ For freelance work, I offer focused data cleanup, API integration, repeatable re
 
 **Client application:** turn a defined document or export format into validated records and a repeatable report.
 
-**Limits:** the repository describes version 0.1. It is a software example, not a claim of certified accounting services, current legal compliance or client delivery.
+**Evidence:** [an executed synthetic CSV example](case-studies/document-data.md) shows the existing parser turning an export into normalized records. Public version 0.4.0 also includes local PDF OCR on macOS. This is a personal software project; accounting or tax advisory services are outside my freelance offer.
 
 ### Personalized recommendations
 
@@ -20,15 +30,7 @@ For freelance work, I offer focused data cleanup, API integration, repeatable re
 
 **Client application:** prototype a recommendation workflow and make its inputs and results available through a small web interface.
 
-**Limits:** no production deployment, recommendation-quality benchmark or client engagement is claimed here.
-
-### Multi-source listing research
-
-Flat Hunter is a personal, local research application for rental listings. Its workflow collects from multiple sources, validates and deduplicates results, retains history in SQLite, ranks candidates and presents source evidence and uncertainty in a web panel. Local model-assisted text and photo review helps triage results; source failures and unresolved facts stay visible. The project also includes offline replay, parser checks and run-status views.
-
-**Client application:** collect data from agreed sources, track changes and present a shortlist with reasons and source evidence.
-
-**Limits:** the repository is private. Collection is bounded and source failures are recorded; the tool is not a complete or guaranteed-current catalogue. Private captures, photos, configuration and personal search preferences are not published.
+**Project type:** personal recommendation application. Relevant to recommendation prototypes and data science work.
 
 ### Documents to a reviewable report
 
@@ -44,11 +46,11 @@ Deal Hunter is a personal tool for researching used IT offers. Its documented pi
 
 Work on data products including recommendation ranking and monitoring, forecasting, conversion modelling and automated reporting. Confirmed contributions include changes to recommendation monitoring and Power BI reporting, forecast data integration and Google Sheets exports, and development and maintenance of conversion-value pipelines connected to advertising workflows.
 
-I also work with customer-return modelling projects. The employer owns these systems and data; this summary does not attribute sole authorship of team projects or publish internal code, data, model results or business metrics.
+I also work with customer-return modelling projects. These are contributions to employer-owned team projects.
 
 ### Data Analyst at LPP
 
-Prepared e-commerce reports and analyses of sales, inventory, returns, costs and profitability. Worked with data on Google Cloud Platform using SQL and BigQuery, Python and Looker, and analysed GA4 funnels and A/B tests. This summary follows the existing CV and the user's confirmation; no quantitative business outcome is claimed.
+Prepared e-commerce reports and analyses of sales, inventory, returns, costs and profitability. Worked with data on Google Cloud Platform using SQL and BigQuery, Python and Looker, and analysed GA4 funnels and A/B tests.
 
 ## Additional public code
 
@@ -56,7 +58,7 @@ Prepared e-commerce reports and analyses of sales, inventory, returns, costs and
 - [Household Chores](https://github.com/ahZe667/household-chores): a Django coursework application for shared household tasks.
 - [LeagueTable](https://github.com/ahZe667/leaguetable): a sports scoreboard coursework application.
 
-These are course projects, not evidence that the entire course is complete.
+The examples above are labelled coursework. Employer code and data are not published.
 
 ## Contact
 
