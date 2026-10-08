@@ -1,0 +1,9 @@
+{
+  "unique_orders": 4,
+  "duplicate_rows_skipped": 1,
+  "total_pln": "278.00",
+  "by_segment_pln": {
+    "new": "122.50",
+    "returning": "155.50"
+  }
+}

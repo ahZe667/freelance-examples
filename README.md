@@ -4,7 +4,24 @@ Data Scientist at Wakacje.pl, previously Data Analyst at LPP. I help turn CSV/Ex
 
 For freelance projects, we agree on the sources, output and acceptance checks. You receive a working solution and instructions for the next run. Availability: 5–10 hours per week. Document processing with human review is a second service.
 
+For shops and agencies, this can mean sales/cost reports, return or inventory analyses,
+cleaning product exports, and joining data from several systems. Focused manual data-entry
+and research tasks are also welcome. We start with a bounded deliverable and sample inputs.
+
 ## Selected existing projects
+
+### Orders to a checked report
+
+**Problem:** order and customer exports need to be joined, and repeated order rows must not
+inflate the summary. The existing Python example produces a repeatable CSV/JSON report.
+
+**Executed sample result:** 4 unique orders, 1 duplicate row skipped, and 278.00 PLN revenue
+split by customer segment. The amounts are synthetic, not client results.
+
+[See the result image, input files, output files and reporting script](case-studies/report-data.md).
+
+**Client application:** an agreed pair of exports, duplicate rules, a checked summary and
+instructions for the next run. The example documents its fixed schema and input limitations.
 
 ### Multi-source listing research
 
