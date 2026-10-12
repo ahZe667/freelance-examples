@@ -10,18 +10,13 @@ and research tasks are also welcome. We start with a bounded deliverable and sam
 
 ## Selected existing projects
 
-### Orders to a checked report
+### Professional reporting and e-commerce analysis
 
-**Problem:** order and customer exports need to be joined, and repeated order rows must not
-inflate the summary. The existing Python example produces a repeatable CSV/JSON report.
+Data Analyst at LPP: sales, inventory, returns, costs and profitability reporting; SQL,
+BigQuery/GCP, Python, Looker, GA4 funnel analysis and A/B tests. Current Data Scientist work
+at Wakacje.pl covers data products, forecasting, recommendations and reporting.
 
-**Executed sample result:** 4 unique orders, 1 duplicate row skipped, and 278.00 PLN revenue
-split by customer segment. The amounts are synthetic, not client results.
-
-[See the result image, input files, output files and reporting script](case-studies/report-data.md).
-
-**Client application:** an agreed pair of exports, duplicate rules, a checked summary and
-instructions for the next run. The example documents its fixed schema and input limitations.
+[See the verified employment scope and relevant client applications](case-studies/professional-experience.md).
 
 ### Multi-source listing research
 
@@ -29,7 +24,7 @@ instructions for the next run. The example documents its fixed schema and input 
 
 **Result:** one view for comparing candidates, investigating missing facts and seeing source failures. Python handles collection and ranking; local model-assisted text and photo review supports investigation.
 
-[See the workflow and an illustrative input/output example](case-studies/flat-hunter.md).
+[See the working panel, cost checks and review questions on synthetic data](case-studies/flat-hunter.md).
 
 **Client application:** monitoring an agreed set of sources, tracking changes and preparing a reviewable shortlist. Personal project; source code and collected data are private.
 
