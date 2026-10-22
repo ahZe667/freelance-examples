@@ -1,77 +1,121 @@
 # Daniel Jaroszewski
 
-Data Scientist at Wakacje.pl, previously Data Analyst at LPP. I help turn CSV/Excel exports and API data into repeatable reports using Python, SQL and Google Cloud Platform.
+Data Scientist at Wakacje.pl, previously Data Analyst at LPP. I work on analytics,
+forecasting, recommendations, data pipelines and automation using Python, SQL and GCP.
 
-For freelance projects, we agree on the sources, output and acceptance checks. You receive a working solution and instructions for the next run. Availability: 5–10 hours per week. Document processing with human review is a second service.
+I help turn a business question into checked data, an analysis, a model-evaluation
+workflow or a repeatable tool. Projects can start with one report, integration or
+defined analytical task. Availability: **5–10 hours per week**.
 
-For shops and agencies, this can mean sales/cost reports, return or inventory analyses,
-cleaning product exports, and joining data from several systems. Focused manual data-entry
-and research tasks are also welcome. We start with a bounded deliverable and sample inputs.
+## Professional work
 
-## Selected existing projects
+These entries describe my contribution to employer-owned team projects. They present
+the business application and my scope; personal projects below provide separate examples.
 
-### Professional reporting and e-commerce analysis
+### Wakacje.pl — traffic forecasting
 
-Data Analyst at LPP: sales, inventory, returns, costs and profitability reporting; SQL,
-BigQuery/GCP, Python, Looker, GA4 funnel analysis and A/B tests. Current Data Scientist work
-at Wakacje.pl covers data products, forecasting, recommendations and reporting.
+![Scope overview](portfolio_assets/forecasting.png)
 
-[See the verified employment scope and relevant client applications](case-studies/professional-experience.md).
+Work in the traffic-forecasting project: data integration, table maintenance and Google Sheets exports.
 
-### Multi-source listing research
+[Read the scope and relevant client applications](case-studies/professional-experience.md#wakacjepl-forecasting).
 
-**Problem:** several sources show overlapping listings, changing prices and incomplete information. Flat Hunter collects listings, keeps their history in SQLite, deduplicates records and presents a ranked shortlist with source evidence in a local web panel.
+### Wakacje.pl — conversion models and data pipelines
 
-**Result:** one view for comparing candidates, investigating missing facts and seeing source failures. Python handles collection and ranking; local model-assisted text and photo review supports investigation.
+![Scope overview](portfolio_assets/conversion.png)
 
-[See the working panel, cost checks and review questions on synthetic data](case-studies/flat-hunter.md).
+Conversion-value pipelines, calibration, ingestion repairs and workflow maintenance supporting advertising processes.
 
-**Client application:** monitoring an agreed set of sources, tracking changes and preparing a reviewable shortlist. Personal project; source code and collected data are private.
+[Read the scope and relevant client applications](case-studies/professional-experience.md#wakacjepl-conversion).
 
-### Document and reporting automation
+### Wakacje.pl — recommendations and monitoring
 
-[ksiegowy-ai](https://github.com/ahZe667/ksiegowy-ai) is an existing public Python project for structured document parsing and reporting. Its modules cover invoice XML, JPK and bank CSV exports, with a workflow in which a person controls official submissions. This demonstrates the separation of deterministic processing from AI-assisted preparation.
+![Scope overview](portfolio_assets/recommendation-monitoring.png)
 
-**Client application:** turn a defined document or export format into validated records and a repeatable report.
+Work on offer recommendations and ranking, monitoring and Power BI reporting.
 
-**Evidence:** [an executed synthetic CSV example](case-studies/document-data.md) shows the existing parser turning an export into normalized records. Public version 0.4.0 also includes local PDF OCR on macOS. This is a personal software project; accounting or tax advisory services are outside my freelance offer.
+[Read the scope and relevant client applications](case-studies/professional-experience.md#wakacjepl-recommendations).
 
-### Personalized recommendations
+### Wakacje.pl — customer-return modelling
 
-[playlist_recommender](https://github.com/ahZe667/playlist_recommender) is a Flask application for generating music recommendations from user ratings. Its documented workflow includes duplicate handling, feature preparation, clustering, positive and negative feedback, and diversity-aware ranking.
+![Scope overview](portfolio_assets/customer-return.png)
 
-**Client application:** prototype a recommendation workflow and make its inputs and results available through a small web interface.
+Participation in a team project on customer-return modelling; no sole model authorship or unsupported result is claimed.
 
-**Project type:** personal recommendation application. Relevant to recommendation prototypes and data science work.
+[Read the scope and relevant client applications](case-studies/professional-experience.md#wakacjepl-customer-return).
 
-### Documents to a reviewable report
+### LPP — e-commerce analytics
 
-Deal Hunter is a personal tool for researching used IT offers. Its documented pipeline extracts information from native HTML, PDF, XLSX and DOCX, preserves source locations, records price history and produces review reports. Missing information and insufficient evidence remain explicit.
+![Scope overview](portfolio_assets/lpp-analytics.png)
 
-**Client application:** convert a defined set of documents into structured information, with traceability and items that need a person's review.
+E-commerce sales, inventory, returns, costs and profitability reporting; BigQuery/GCP, Python, Looker, GA4 funnels and A/B tests.
 
-**Limits:** the repository is private. Scanned documents are flagged for review; OCR is not implemented. Financial calculations are scenarios with explicit assumptions, not evidence of realised investment returns.
+[Read the scope and relevant client applications](case-studies/professional-experience.md#lpp).
 
-## Professional experience
+## Personal applications
 
-### Data Scientist at Wakacje.pl
+### Flat Hunter — listing monitoring and history
 
-Work on data products including recommendation ranking and monitoring, forecasting, conversion modelling and automated reporting. Confirmed contributions include changes to recommendation monitoring and Power BI reporting, forecast data integration and Google Sheets exports, and development and maintenance of conversion-value pipelines connected to advertising workflows.
+![Working panel on fictional data](case-studies/flat-hunter/panel.png)
 
-I also work with customer-return modelling projects. These are contributions to employer-owned team projects.
+Collect and deduplicate listings, retain price changes, inspect cost assumptions and review a ranked shortlist. The case study contains actual application screenshots on fictional data.
 
-### Data Analyst at LPP
+[See the workflow, evidence and limits](case-studies/flat-hunter.md).
 
-Prepared e-commerce reports and analyses of sales, inventory, returns, costs and profitability. Worked with data on Google Cloud Platform using SQL and BigQuery, Python and Looker, and analysed GA4 funnels and A/B tests.
+<a id="documents-to-a-reviewable-report"></a>
 
-## Additional public code
+### Deal Hunter — document extraction and offer research
 
-- [Agent Relay](https://github.com/ahZe667/agent-relay): a FastAPI and SQLite coursework project demonstrating authenticated task delivery, leases and retries.
-- [Household Chores](https://github.com/ahZe667/household-chores): a Django coursework application for shared household tasks.
-- [LeagueTable](https://github.com/ahZe667/leaguetable): a sports scoreboard coursework application.
+![Workflow overview](portfolio_assets/deal-hunter.png)
 
-The examples above are labelled coursework. Employer code and data are not published.
+Extract native HTML/PDF/XLSX/DOCX information, preserve source locations, track asking-price history and produce an evidence-linked review report.
 
-## Contact
+[See the workflow, evidence and limits](case-studies/deal-hunter.md).
 
-[Useme profile](https://useme.com/pl/roles/contractor/daniel-jaroszewski,625497/) · [Upwork profile](https://www.upwork.com/freelancers/~01f870aecc168381a1) · [GitHub](https://github.com/ahZe667)
+### ksiegowy-ai — document automation
+
+![Workflow overview](portfolio_assets/document-automation.png)
+
+Parse invoice XML, JPK and bank CSV exports, produce repeatable reports and review local OCR output. Public code and an executed synthetic CSV example are available.
+
+[See the workflow, evidence and limits](case-studies/document-automation.md).
+
+### Playlist Recommender — personalised recommendations
+
+![Workflow overview](portfolio_assets/playlist.png)
+
+A Flask application combining user ratings, feature preparation, duplicate handling, clustering and diversity-aware ranking. Public code is available.
+
+[See the workflow, evidence and limits](case-studies/recommendations.md).
+
+### Career Hub — aggregation and preference learning
+
+![Workflow overview](portfolio_assets/career-hub.png)
+
+A local multi-source offer inbox with source-identity checks, snapshot-bound owner ratings, temporal model validation and versioned application materials.
+
+[See the workflow, evidence and limits](case-studies/career-hub.md).
+
+## Research and workflow prototypes
+
+- [Data Journalism](case-studies/data-journalism.md): primary-source research, claims-to-sources tables, charts and editorial drafts. The end-to-end pilot remains pending.
+- [Market-data research](case-studies/market-research.md): an experimental pipeline with backtesting, a baseline and outcome tracking. No investment-performance claim.
+
+## Additional public projects and executed examples
+
+- [Agent Relay](https://github.com/ahZe667/agent-relay): a coursework FastAPI/SQLite task-delivery service with authentication, leased claims and retries.
+- [Household Chores](https://github.com/ahZe667/household-chores): a coursework Django application for shared household tasks.
+- [LeagueTable](https://github.com/ahZe667/leaguetable): a coursework sports-scoreboard application.
+- [CSV reporting example](case-studies/report-data.md): an executed, synthetic order/customer join with a duplicate check and CSV/JSON output.
+
+## Working together
+
+We agree on the data sources, expected output and acceptance checks. Delivery includes
+the result and instructions for running it again. Focused spreadsheet fixes, data
+preparation, research and import preparation are also welcome.
+
+Professional contributions, personal applications, coursework and prototypes are labelled
+explicitly. Employer code, datasets and internal dashboards remain private. Workflow
+illustrations are descriptive and do not represent employer interfaces or measured outcomes.
+
+[Useme](https://useme.com/pl/roles/contractor/daniel-jaroszewski,625497/) · [Upwork](https://www.upwork.com/freelancers/~01f870aecc168381a1) · [GitHub](https://github.com/ahZe667)
